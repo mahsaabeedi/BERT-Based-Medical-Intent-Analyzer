@@ -7,6 +7,4 @@ This function follows the description in the paper, and extracts arrhythmia 12 c
 
 Arrhythmia_Classifier.py contains the CNN according to the details in the paper. 
 
-TODO:
-- Split the dataset to train and test
-- Write classification scores 
+
