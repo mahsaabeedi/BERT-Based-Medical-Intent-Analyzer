@@ -58,7 +58,8 @@ Also, I did the following before training the model:
 ```
 model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels = 25)
 ```
-* using AdamW optimizer and creating the learning rate scheduler
+* using AdamW optimizer and creating the learning rate scheduler:
+  AdamW is a variant of the Adam optimization algorithm, which is a widely used optimization algorithm for training neural networks. The "W" in AdamW stands for "Weight Decay," and it incorporates weight decay directly into the optimization step. Weight decay is a regularization technique that helps prevent overfitting by adding a penalty term to the loss function based on the magnitudes of the model's weights.
 * creating a function to calcuate the accuracy of the model
 
 ## Model Performance
